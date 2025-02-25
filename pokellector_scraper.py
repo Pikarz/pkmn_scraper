@@ -9,7 +9,7 @@ from io import BytesIO
 import os  
 import csv
 
-IMAGES_PATH = 'Y:/cardmaster-project/frontend/pokecards/public/expansion_images/' # path to save the images of the cards and the set
+IMAGES_PATH = ... # path to save the images of the cards and the set
 
 def download_media(url):
   try:
