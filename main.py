@@ -65,6 +65,5 @@ if __name__ == '__main__':
                 'is_jap' : True
             }]
     
-    save_path = 'G:/My Drive/pkmn_db/sets_new_insert/' ### REQUIRES OPEN DRIVE
-
+    save_path = ... 
     scrape_and_populate(expansions, save_path)
