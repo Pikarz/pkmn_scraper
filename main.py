@@ -7,11 +7,7 @@ from populate_db import populate_expansion_table, insert_jp_language, insert_eu_
 
 POKELLECTOR_URL = 'https://www.pokellector.com/'
 DB_PARAMS = {
-    'host': '192.168.1.2',
-    'port': '5432',
-    'database': 'cardmaster',
-    'user': 'nemo',
-    'password': '322322'
+...
 }
 
 def scrape_and_populate(expansions, save_path):
